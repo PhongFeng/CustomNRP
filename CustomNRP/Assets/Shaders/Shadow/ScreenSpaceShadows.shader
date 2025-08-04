@@ -51,7 +51,7 @@ Shader "Hidden/Honkai Star Rail/Shadow/ScreenSpaceShadows"
 
             //Keep compiler quiet about Shadows.hlsl.
             #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
-            #include "Packages/com.stalomeow.star-rail-npr-shader/Shaders/Shadow/PerObjectShadow.hlsl"
+            #include "PerObjectShadow.hlsl"
             // Core.hlsl for XR dependencies
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.core/Runtime/Utilities/Blit.hlsl"
